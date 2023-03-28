@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Car {
     Integer id;
     String license;
-    Account driver;
+    String driver;
     Integer passenger;
 
     void printDataCar() {
