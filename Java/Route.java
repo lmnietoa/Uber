@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+import java.util.ArrayList; //Librería para utilizar arreglos en JAVA
 
 public class Route {
-    Integer id;
-    ArrayList<Double> start;
-    ArrayList<Double> end;
+    Integer id; // Atributos de la clase
+    ArrayList<Double> start; // Atributos de la clase
+    ArrayList<Double> end; // Atributos de la clase
 }

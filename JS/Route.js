@@ -1,5 +1,6 @@
+// Creación de clases en JavaScript
 function Route () {
-    this.id;
-    this.init;
-    this.end;
+    this.id; // Atributos de la clase
+    this.init; // Atributos de la clase
+    this.end; // Atributos de la clase
 }

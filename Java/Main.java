@@ -1,12 +1,21 @@
+//Las clases deben llamarse exactamente igual a los archivos de cada una
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
-        Car car = new Car("TJO30E", new Account("Lina Nieto", "LIN123"));
-        // car.license = "TJO30E";
-        // car.driver = "Lina Nieto";
-        car.passenger = 2;
-        // System.out.println("Placa del vehículo: " + car.license);
-        car.printDataCar();
+        System.out.println("Hola mundo"); // Línea base para imprimir en pantalla
+
+        Car car = new Car( // Declaración de un objeto utilizando el método constructor
+                "TJO30E",
+                new Account( // Declaración de un objeto utilizando el método constructor
+                        "Lina Nieto",
+                        "LIN123"));
+
+        // car.license = "TJO30E"; // Asignación de valores de manera directa al objeto
+        // car.driver = "Lina Nieto"; // Asignación de valores de manera directa al
+        // objeto
+        car.passenger = 2; // Asignación de valores de manera directa al objeto
+        // System.out.println("Placa del vehículo: " + car.license); // Manera de
+        // imprimir un atributo específico
+        car.printDataCar(); // Invocación de métodos
 
         Car car2 = new Car("GCK47F", new Account("Luis Chavez", "LUI147"));
         // car2.license = "GCK47F";
