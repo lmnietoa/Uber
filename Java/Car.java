@@ -1,7 +1,7 @@
 public class Car {
     Integer id; // Atributos de la clase, variables glabales de la clase
     String license; // Atributos de la clase
-    Account driver; // Atributos de la clase heredando de otra clsae
+    Account driver; // Atributos de la clase
     Integer passenger; // Atributos de la clase
 
     public Car(String license/* variables locales */, Account driver /* variables locales */) {
