@@ -18,7 +18,6 @@ class UberVan extends Car {
 
     @Override
     public void setPassenger(Integer passenger) {
-        // TODO Auto-generated method stub
         if (passenger == 6) {
             this.passenger = passenger;
         } else {
