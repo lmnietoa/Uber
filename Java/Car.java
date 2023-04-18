@@ -12,6 +12,6 @@ public class Car {
 
     void printDataCar() {
         // Métodos de la clase
-        System.out.println("Placa: " + license + " Conductor: " + driver.name);
+        System.out.println("Placa: " + license + " Conductor: " + driver.name + "Pasajeros: " + passenger);
     }
 }
